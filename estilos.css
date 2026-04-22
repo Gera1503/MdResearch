@@ -86,12 +86,12 @@
   cursor: pointer;
 }
 
-.logo a {
+/* .logo a {
   font-size: 1.5rem;
   font-weight: 600;
   font-family: var(--header-font);
   color: var(--white);
-}
+} */
 
 img {
   display: flex;
@@ -377,8 +377,9 @@ nav {
 /* Media queri*/
 
 @media (width > 768px) {
-  .nav_logo {
+  .nav_logo.img {
     flex: 1;
+    height: 80%;
   }
 
   .nav_links {
