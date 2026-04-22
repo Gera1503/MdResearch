@@ -86,12 +86,12 @@
   cursor: pointer;
 }
 
-/* .logo a {
+.logo a {
   font-size: 1.5rem;
   font-weight: 600;
   font-family: var(--header-font);
   color: var(--white);
-} */
+}
 
 img {
   display: flex;
