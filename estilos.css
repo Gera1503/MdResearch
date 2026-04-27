@@ -106,6 +106,7 @@ a {
 html,
 body {
   scroll-behavior: smooth;
+  background-color: var(--primary-color);
 }
 
 .btn:hover {
@@ -283,7 +284,6 @@ nav {
   margin-inline: auto;
   border-radius: 5px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
-  z-index: 99;
 }
 
 .about_content {
@@ -329,8 +329,9 @@ nav {
 /* contacto */
 
 .contact {
-  margin-top: 70px;
-  background-color: var(--primary-color);
+  margin-top: 300px;
+  margin-bottom: 300px;
+  /* background-color: var(--primary-color);   */
 }
 
 .contact_container {
@@ -363,13 +364,17 @@ nav {
   outline: none;
   border-bottom: 1px solid var(--secondary-color);
   font-size: 1rem;
-  color: var(--white);
+  color: var(--tree-color);
+  position: relative;
+  z-index: 99;
 }
 
 .contact_content .btn {
   margin-top: 2rem;
-  background: var(--white);
+  background: var(--secondary-color);
   color: var(--primary-color);
+  position: relative;
+  z-index: 99;
 }
 
 .contact_image {
@@ -501,6 +506,11 @@ nav {
     left: 50%;
     transform: translateX(-40%);
     max-width: 450px;
+  }
+
+  .input_row {
+    display: flex;
+    gap: 2rem;
   }
 
   .footer_container {
