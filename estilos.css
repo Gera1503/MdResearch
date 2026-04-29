@@ -338,6 +338,8 @@ nav {
   margin-top: 200px;
   margin-bottom: 100px;
   /* background-color: var(--primary-color);   */
+  position: relative;
+  z-index: 99;
 }
 
 @keyframes reveal {
